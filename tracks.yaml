@@ -1,0 +1,16 @@
+cota:
+  corners:
+    - number: 1
+      name: Corner One
+      notes: A tight hairpin that requires heavy braking.
+    - number: 2
+      name: Corner Two
+      notes: A sweeping right-hander.
+nurburgring:
+  corners:
+    - number: 1
+      name: Corner One
+      notes: A tight hairpin that requires heavy braking.
+    - number: 2
+      name: Corner Two
+      notes: A sweeping right-hander.
