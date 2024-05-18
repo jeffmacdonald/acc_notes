@@ -1,16 +1,1068 @@
-cota:
-  corners:
-    - number: 1
-      name: Corner One
-      notes: A tight hairpin that requires heavy braking.
-    - number: 2
-      name: Corner Two
-      notes: A sweeping right-hander.
-nurburgring:
-  corners:
-    - number: 1
-      name: Corner One
-      notes: A tight hairpin that requires heavy braking.
-    - number: 2
-      name: Corner Two
-      notes: A sweeping right-hander.
+tracks:
+  - track_name: Monza
+    corners:
+      - number: 1
+        name: Variante del Rettifilo
+        notes: A tight chicane that requires heavy braking.
+        braking_reference: Brake hard at the 150m board.
+        corner_entry_notes: Slow down to 2nd gear.
+        exit_notes: Careful on throttle, aim for a clean exit.
+      - number: 2
+        name: Curva Grande
+        notes: High-speed right-hand corner.
+        braking_reference: No braking needed.
+        corner_entry_notes: Stay to the left.
+        exit_notes: Smooth on the throttle.
+      - number: 3
+        name: Variante della Roggia
+        notes: Another chicane, tricky and technical.
+        braking_reference: Brake at the 150m board.
+        corner_entry_notes: Down to 2nd gear.
+        exit_notes: Keep the car stable.
+      - number: 4
+        name: Lesmo 1
+        notes: Medium-speed right-hander.
+        braking_reference: Brake at the 50m board.
+        corner_entry_notes: Down to 3rd gear.
+        exit_notes: Early on the throttle.
+      - number: 5
+        name: Lesmo 2
+        notes: Slightly faster than Lesmo 1.
+        braking_reference: Light brake at the 50m board.
+        corner_entry_notes: Down to 3rd gear.
+        exit_notes: Focus on a good exit onto the straight.
+      - number: 6
+        name: Ascari
+        notes: A fast and challenging chicane.
+        braking_reference: Brake at the 100m board.
+        corner_entry_notes: Down to 4th gear.
+        exit_notes: Smooth transition through each section.
+      - number: 7
+        name: Parabolica
+        notes: Long, sweeping right-hander.
+        braking_reference: Brake at the 100m board.
+        corner_entry_notes: Down to 3rd gear.
+        exit_notes: Full throttle as early as possible.
+
+  - track_name: Spa
+    corners:
+      - number: 1
+        name: La Source
+        notes: A tight hairpin that requires heavy braking.
+        braking_reference: Brake at the 100m board.
+        corner_entry_notes: Slow down to 1st gear.
+        exit_notes: Accelerate smoothly out.
+      - number: 2
+        name: Eau Rouge & Raidillon
+        notes: A challenging uphill section.
+        braking_reference: Full throttle through Eau Rouge.
+        corner_entry_notes: Slight lift if needed.
+        exit_notes: Keep to the right at Raidillon.
+      - number: 3
+        name: Les Combes
+        notes: Technical chicane at the end of the Kemmel Straight.
+        braking_reference: Brake at the 150m board.
+        corner_entry_notes: Down to 2nd gear.
+        exit_notes: Balance the throttle through the turns.
+      - number: 4
+        name: Bruxelles
+        notes: Long, tight right-hander.
+        braking_reference: Brake at the 100m board.
+        corner_entry_notes: Down to 2nd gear.
+        exit_notes: Smooth on the power.
+      - number: 5
+        name: Pouhon
+        notes: High-speed double left-hander.
+        braking_reference: Lift off slightly before entry.
+        corner_entry_notes: No braking needed.
+        exit_notes: Full throttle mid-corner.
+      - number: 6
+        name: Stavelot
+        notes: Fast right-hander.
+        braking_reference: Light brake at the entry.
+        corner_entry_notes: Down to 4th gear.
+        exit_notes: Carry speed onto the straight.
+      - number: 7
+        name: Blanchimont
+        notes: High-speed left-hander.
+        braking_reference: Flat out if possible.
+        corner_entry_notes: No braking needed.
+        exit_notes: Hold the line.
+
+  - track_name: Suzuka
+    corners:
+      - number: 1
+        name: First Curve
+        notes: High-speed right-hander.
+        braking_reference: Brake at the 100m board.
+        corner_entry_notes: Slow down to 3rd gear.
+        exit_notes: Maintain momentum through the exit.
+      - number: 2
+        name: S Curves
+        notes: A series of flowing turns.
+        braking_reference: Enter at 4th gear, feather the throttle.
+        corner_entry_notes: Maintain a smooth rhythm.
+        exit_notes: Keep a consistent speed.
+      - number: 3
+        name: Degner 1
+        notes: Tight right-hander.
+        braking_reference: Brake hard before the bridge.
+        corner_entry_notes: Down to 3rd gear.
+        exit_notes: Smooth on the throttle.
+      - number: 4
+        name: Degner 2
+        notes: Short, sharp right-hander.
+        braking_reference: Quick brake before the turn.
+        corner_entry_notes: Down to 2nd gear.
+        exit_notes: Early throttle.
+      - number: 5
+        name: Spoon Curve
+        notes: Long, double-apex left-hander.
+        braking_reference: Brake at the 100m board.
+        corner_entry_notes: Down to 3rd gear.
+        exit_notes: Early throttle.
+      - number: 6
+        name: 130R
+        notes: High-speed left-hander.
+        braking_reference: Flat out if possible, slight lift if necessary.
+        corner_entry_notes: Maintain speed.
+        exit_notes: Hold the racing line.
+      - number: 7
+        name: Casio Triangle
+        notes: Tight chicane.
+        braking_reference: Brake hard at the 150m board.
+        corner_entry_notes: Down to 2nd gear.
+        exit_notes: Focus on a clean exit.
+
+  - track_name: Silverstone
+    corners:
+      - number: 1
+        name: Abbey
+        notes: A fast right-hander.
+        braking_reference: Slight lift off the throttle.
+        corner_entry_notes: Minimal braking.
+        exit_notes: Accelerate through the corner.
+      - number: 2
+        name: Village
+        notes: A tight left-hander.
+        braking_reference: Brake at the 50m board.
+        corner_entry_notes: Slow down to 2nd gear.
+        exit_notes: Careful on exit to avoid wheel spin.
+      - number: 3
+        name: The Loop
+        notes: Tight left-hander.
+        braking_reference: Slow and steady.
+        corner_entry_notes: Down to 1st gear.
+        exit_notes: Smooth on the throttle.
+      - number: 4
+        name: Brooklands
+        notes: Medium-speed left-hander.
+        braking_reference: Brake at the 100m board.
+        corner_entry_notes: Down to 3rd gear.
+        exit_notes: Early on the throttle.
+      - number: 5
+        name: Luffield
+        notes: Long right-hander.
+        braking_reference: Maintain a tight line.
+        corner_entry_notes: Down to 2nd gear.
+        exit_notes: Gradual throttle application.
+      - number: 6
+        name: Copse
+        notes: High-speed right-hander.
+        braking_reference: Slight lift or light brake.
+        corner_entry_notes: Maintain speed.
+        exit_notes: Smooth on the throttle.
+      - number: 7
+        name: Maggots & Becketts
+        notes: Series of high-speed S-curves.
+        braking_reference: Enter at full throttle.
+        corner_entry_notes: Light braking as needed.
+        exit_notes: Maintain momentum.
+      - number: 8
+        name: Stowe
+        notes: Fast right-hander.
+        braking_reference: Brake at the 50m board.
+        corner_entry_notes: Down to 4th gear.
+        exit_notes: Full throttle out of the corner.
+
+  - track_name: Bathurst
+    corners:
+      - number: 1
+        name: Hell Corner
+        notes: A tight left-hand turn.
+        braking_reference: Brake at the 100m board.
+        corner_entry_notes: Slow down to 2nd gear.
+        exit_notes: Use full throttle on exit.
+      - number: 2
+        name: The Cutting
+        notes: A steep uphill left-hander.
+        braking_reference: Brake early and hard.
+        corner_entry_notes: Slow down to 2nd gear.
+        exit_notes: Smooth on the throttle due to the incline.
+      - number: 3
+        name: Griffin's Mount
+        notes: Fast right-hander.
+        braking_reference: Slight lift before the turn.
+        corner_entry_notes: Maintain speed.
+        exit_notes: Early throttle.
+      - number: 4
+        name: Skyline
+        notes: Tricky downhill section.
+        braking_reference: Light brake before entry.
+        corner_entry_notes: Down to 3rd gear.
+        exit_notes: Control the descent.
+      - number: 5
+        name: Forrest's Elbow
+        notes: Tight left-hander before the long straight.
+        braking_reference: Brake hard before the elbow.
+        corner_entry_notes: Down to 2nd gear.
+        exit_notes: Maximize exit speed onto the straight.
+      - number: 6
+        name: The Chase
+        notes: High-speed chicane.
+        braking_reference: Brake at the 150m board.
+        corner_entry_notes: Down to 3rd gear.
+        exit_notes: Quick transition through the turns.
+
+  - track_name: Imola
+    corners:
+      - number: 1
+        name: Tamburello
+        notes: High-speed chicane.
+        braking_reference: Brake at the 100m board.
+        corner_entry_notes: Down to 3rd gear.
+        exit_notes: Smooth on the throttle.
+      - number: 2
+        name: Villeneuve
+        notes: Medium-speed chicane.
+        braking_reference: Brake at the 50m board.
+        corner_entry_notes: Down to 3rd gear.
+        exit_notes: Careful on the throttle.
+      - number: 3
+        name: Tosa
+        notes: Tight left-hander.
+        braking_reference: Brake at the 100m board.
+        corner_entry_notes: Down to 2nd gear.
+        exit_notes: Early on the throttle.
+      - number: 4
+        name: Piratella
+        notes: Fast left-hander.
+        braking_reference: Light brake before entry.
+        corner_entry_notes: Down to 4th gear.
+        exit_notes: Full throttle through the turn.
+      - number: 5
+        name: Acque Minerali
+        notes: Challenging right-hander.
+        braking_reference: Brake at the 100m board.
+        corner_entry_notes: Down to 2nd gear.
+        exit_notes: Smooth on the power.
+      - number: 6
+        name: Variante Alta
+        notes: Tight chicane.
+        braking_reference: Brake at the 100m board.
+        corner_entry_notes: Down to 2nd gear.
+        exit_notes: Quick on the throttle.
+      - number: 7
+        name: Rivazza
+        notes: Double left-hander.
+        braking_reference: Brake at the 100m board.
+        corner_entry_notes: Down to 3rd gear.
+        exit_notes: Full throttle as early as possible.
+
+  - track_name: Barcelona
+    corners:
+      - number: 1
+        name: Elf
+        notes: A tight right-hander that requires heavy braking.
+        braking_reference: Brake at the 100m board.
+        corner_entry_notes: Down to 2nd gear.
+        exit_notes: Smooth on throttle.
+      - number: 2
+        name: Renault
+        notes: High-speed right-hander.
+        braking_reference: Light brake.
+        corner_entry_notes: Maintain speed.
+        exit_notes: Smooth throttle application.
+      - number: 3
+        name: Repsol
+        notes: Medium-speed right-hander.
+        braking_reference: Brake at the 50m board.
+        corner_entry_notes: Down to 3rd gear.
+        exit_notes: Early on throttle.
+      - number: 4
+        name: Seat
+        notes: Medium-speed left-hander.
+        braking_reference: Brake at the 100m board.
+        corner_entry_notes: Down to 2nd gear.
+        exit_notes: Early on throttle.
+      - number: 5
+        name: Campsa
+        notes: High-speed right-hander.
+        braking_reference: Slight lift or light brake.
+        corner_entry_notes: Maintain speed.
+        exit_notes: Early throttle.
+      - number: 6
+        name: La Caixa
+        notes: Tight left-hander.
+        braking_reference: Brake at the 100m board.
+        corner_entry_notes: Down to 2nd gear.
+        exit_notes: Smooth on throttle.
+      - number: 7
+        name: Banc Sabadell
+        notes: Tight right-hander.
+        braking_reference: Brake at the 50m board.
+        corner_entry_notes: Down to 2nd gear.
+        exit_notes: Early on throttle.
+      - number: 8
+        name: Europe Car
+        notes: High-speed right-hander.
+        braking_reference: Slight lift or light brake.
+        corner_entry_notes: Maintain speed.
+        exit_notes: Full throttle.
+
+  - track_name: Brands Hatch
+    corners:
+      - number: 1
+        name: Paddock Hill Bend
+        notes: A fast, downhill right-hander.
+        braking_reference: Brake at the 50m board.
+        corner_entry_notes: Down to 3rd gear.
+        exit_notes: Smooth on throttle.
+      - number: 2
+        name: Druids
+        notes: A tight uphill hairpin.
+        braking_reference: Brake at the 100m board.
+        corner_entry_notes: Down to 2nd gear.
+        exit_notes: Smooth on throttle.
+      - number: 3
+        name: Graham Hill Bend
+        notes: Medium-speed left-hander.
+        braking_reference: Light brake.
+        corner_entry_notes: Down to 3rd gear.
+        exit_notes: Early on throttle.
+      - number: 4
+        name: Surtees
+        notes: High-speed left-hander.
+        braking_reference: Slight lift.
+        corner_entry_notes: Maintain speed.
+        exit_notes: Full throttle.
+      - number: 5
+        name: Hawthorn Bend
+        notes: High-speed right-hander.
+        braking_reference: Slight lift or light brake.
+        corner_entry_notes: Maintain speed.
+        exit_notes: Full throttle.
+      - number: 6
+        name: Westfield Bend
+        notes: High-speed right-hander.
+        braking_reference: Slight lift.
+        corner_entry_notes: Maintain speed.
+        exit_notes: Full throttle.
+      - number: 7
+        name: Sheene Curve
+        notes: High-speed right-hander.
+        braking_reference: Slight lift.
+        corner_entry_notes: Maintain speed.
+        exit_notes: Full throttle.
+      - number: 8
+        name: Stirling's Bend
+        notes: Medium-speed left-hander.
+        braking_reference: Light brake.
+        corner_entry_notes: Down to 3rd gear.
+        exit_notes: Smooth on throttle.
+      - number: 9
+        name: Clark Curve
+        notes: Medium-speed right-hander.
+        braking_reference: Light brake.
+        corner_entry_notes: Down to 3rd gear.
+        exit_notes: Smooth on throttle.
+
+  - track_name: Hungaroring
+    corners:
+      - number: 1
+        name: Turn 1
+        notes: Tight right-hander.
+        braking_reference: Brake at the 100m board.
+        corner_entry_notes: Down to 2nd gear.
+        exit_notes: Smooth on throttle.
+      - number: 2
+        name: Turn 2
+        notes: Medium-speed left-hander.
+        braking_reference: Light brake.
+        corner_entry_notes: Down to 3rd gear.
+        exit_notes: Early on throttle.
+      - number: 3
+        name: Turn 3
+        notes: High-speed right-hander.
+        braking_reference: No braking needed.
+        corner_entry_notes: Maintain speed.
+        exit_notes: Full throttle.
+      - number: 4
+        name: Turn 4
+        notes: High-speed left-hander.
+        braking_reference: Slight lift or light brake.
+        corner_entry_notes: Maintain speed.
+        exit_notes: Early throttle.
+      - number: 5
+        name: Turn 5
+        notes: Medium-speed right-hander.
+        braking_reference: Light brake.
+        corner_entry_notes: Down to 3rd gear.
+        exit_notes: Smooth on throttle.
+      - number: 6
+        name: Turn 6
+        notes: Tight left-right chicane.
+        braking_reference: Brake at the 100m board.
+        corner_entry_notes: Down to 2nd gear.
+        exit_notes: Smooth transition.
+      - number: 7
+        name: Turn 7
+        notes: Medium-speed left-hander.
+        braking_reference: Light brake.
+        corner_entry_notes: Down to 3rd gear.
+        exit_notes: Early on throttle.
+      - number: 8
+        name: Turn 8
+        notes: Medium-speed right-hander.
+        braking_reference: Light brake.
+        corner_entry_notes: Down to 3rd gear.
+        exit_notes: Smooth on throttle.
+      - number: 9
+        name: Turn 9
+        notes: Medium-speed left-hander.
+        braking_reference: Light brake.
+        corner_entry_notes: Down to 3rd gear.
+        exit_notes: Early on throttle.
+      - number: 10
+        name: Turn 10
+        notes: Medium-speed right-hander.
+        braking_reference: Light brake.
+        corner_entry_notes: Down to 3rd gear.
+        exit_notes: Smooth on throttle.
+      - number: 11
+        name: Turn 11
+        notes: High-speed right-hander.
+        braking_reference: Slight lift or light brake.
+        corner_entry_notes: Maintain speed.
+        exit_notes: Full throttle.
+      - number: 12
+        name: Turn 12
+        notes: Tight left-hander.
+        braking_reference: Brake at the 100m board.
+        corner_entry_notes: Down to 2nd gear.
+        exit_notes: Smooth on throttle.
+      - number: 13
+        name: Turn 13
+        notes: Medium-speed right-hander.
+        braking_reference: Light brake.
+        corner_entry_notes: Down to 3rd gear.
+        exit_notes: Early on throttle.
+      - number: 14
+        name: Turn 14
+        notes: Tight right-hander.
+        braking_reference: Brake at the 100m board.
+        corner_entry_notes: Down to 2nd gear.
+        exit_notes: Smooth on throttle.
+
+  - track_name: Kyalami
+    corners:
+      - number: 1
+        name: Crowthorne
+        notes: Tight right-hander.
+        braking_reference: Brake at the 100m board.
+        corner_entry_notes: Down to 2nd gear.
+        exit_notes: Smooth on throttle.
+      - number: 2
+        name: Jukskei Sweep
+        notes: High-speed left-hander.
+        braking_reference: Slight lift or light brake.
+        corner_entry_notes: Maintain speed.
+        exit_notes: Full throttle.
+      - number: 3
+        name: Barbeque Bend
+        notes: Medium-speed right-hander.
+        braking_reference: Light brake.
+        corner_entry_notes: Down to 3rd gear.
+        exit_notes: Smooth on throttle.
+      - number: 4
+        name: Sunset
+        notes: High-speed right-hander.
+        braking_reference: Slight lift.
+        corner_entry_notes: Maintain speed.
+        exit_notes: Full throttle.
+      - number: 5
+        name: Clubhouse Bend
+        notes: Medium-speed right-hander.
+        braking_reference: Light brake.
+        corner_entry_notes: Down to 3rd gear.
+        exit_notes: Early on throttle.
+      - number: 6
+        name: The Esses
+        notes: Series of left-right turns.
+        braking_reference: Light brake.
+        corner_entry_notes: Maintain speed.
+        exit_notes: Smooth transition.
+      - number: 7
+        name: Leeukop
+        notes: Tight right-hander.
+        braking_reference: Brake at the 100m board.
+        corner_entry_notes: Down to 2nd gear.
+        exit_notes: Smooth on throttle.
+      - number: 8
+        name: Mineshaft
+        notes: High-speed left-hander.
+        braking_reference: Slight lift.
+        corner_entry_notes: Maintain speed.
+        exit_notes: Full throttle.
+      - number: 9
+        name: The Crocodiles
+        notes: Medium-speed right-hander.
+        braking_reference: Light brake.
+        corner_entry_notes: Down to 3rd gear.
+        exit_notes: Smooth on throttle.
+      - number: 10
+        name: Cheetah
+        notes: High-speed left-hander.
+        braking_reference: Slight lift.
+        corner_entry_notes: Maintain speed.
+        exit_notes: Full throttle.
+      - number: 11
+        name: Ingwe
+        notes: Tight right-hander.
+        braking_reference: Brake at the 100m board.
+        corner_entry_notes: Down to 2nd gear.
+        exit_notes: Smooth on throttle.
+
+  - track_name: Laguna Seca
+    corners:
+      - number: 1
+        name: Andretti Hairpin
+        notes: Double-apex left-hander.
+        braking_reference: Brake at the 100m board.
+        corner_entry_notes: Down to 2nd gear.
+        exit_notes: Smooth on throttle.
+      - number: 2
+        name: Turn 3
+        notes: Medium-speed right-hander.
+        braking_reference: Light brake.
+        corner_entry_notes: Down to 3rd gear.
+        exit_notes: Early on throttle.
+      - number: 3
+        name: Turn 4
+        notes: Medium-speed right-hander.
+        braking_reference: Light brake.
+        corner_entry_notes: Down to 3rd gear.
+        exit_notes: Smooth on throttle.
+      - number: 4
+        name: Turn 5
+        notes: Medium-speed left-hander.
+        braking_reference: Light brake.
+        corner_entry_notes: Down to 3rd gear.
+        exit_notes: Early on throttle.
+      - number: 5
+        name: Turn 6
+        notes: High-speed left-hander.
+        braking_reference: Slight lift.
+        corner_entry_notes: Maintain speed.
+        exit_notes: Full throttle.
+      - number: 6
+        name: The Corkscrew
+        notes: Famous downhill left-right chicane.
+        braking_reference: Brake at the 100m board.
+        corner_entry_notes: Down to 2nd gear.
+        exit_notes: Smooth transition.
+      - number: 7
+        name: Rainey Curve
+        notes: High-speed left-hander.
+        braking_reference: Slight lift.
+        corner_entry_notes: Maintain speed.
+        exit_notes: Full throttle.
+      - number: 8
+        name: Turn 10
+        notes: Medium-speed right-hander.
+        braking_reference: Light brake.
+        corner_entry_notes: Down to 3rd gear.
+        exit_notes: Smooth on throttle.
+      - number: 9
+        name: Turn 11
+        notes: Tight left-hander.
+        braking_reference: Brake at the 100m board.
+        corner_entry_notes: Down to 2nd gear.
+        exit_notes: Smooth on throttle.
+
+  - track_name: Misano
+    corners:
+      - number: 1
+        name: Variante del Parco
+        notes: Medium-speed left-hander.
+        braking_reference: Light brake.
+        corner_entry_notes: Down to 3rd gear.
+        exit_notes: Smooth on throttle.
+      - number: 2
+        name: Variante del Parco 2
+        notes: Medium-speed right-hander.
+        braking_reference: Light brake.
+        corner_entry_notes: Down to 3rd gear.
+        exit_notes: Early on throttle.
+      - number: 3
+        name: Rio
+        notes: Tight right-hander.
+        braking_reference: Brake at the 100m board.
+        corner_entry_notes: Down to 2nd gear.
+        exit_notes: Smooth on throttle.
+      - number: 4
+        name: Rio 2
+        notes: Tight left-hander.
+        braking_reference: Light brake.
+        corner_entry_notes: Down to 2nd gear.
+        exit_notes: Early on throttle.
+      - number: 5
+        name: Quercia
+        notes: Medium-speed right-hander.
+        braking_reference: Light brake.
+        corner_entry_notes: Down to 3rd gear.
+        exit_notes: Smooth on throttle.
+      - number: 6
+        name: Tramonto
+        notes: Tight left-hander.
+        braking_reference: Brake at the 100m board.
+        corner_entry_notes: Down to 2nd gear.
+        exit_notes: Smooth on throttle.
+      - number: 7
+        name: Curvone
+        notes: High-speed right-hander.
+        braking_reference: Slight lift.
+        corner_entry_notes: Maintain speed.
+        exit_notes: Full throttle.
+      - number: 8
+        name: Carro
+        notes: Medium-speed right-hander.
+        braking_reference: Light brake.
+        corner_entry_notes: Down to 3rd gear.
+        exit_notes: Smooth on throttle.
+      - number: 9
+        name: Misano 2
+        notes: Medium-speed right-hander.
+        braking_reference: Light brake.
+        corner_entry_notes: Down to 3rd gear.
+        exit_notes: Early on throttle.
+      - number: 10
+        name: Variante del Carro
+        notes: Tight left-hander.
+        braking_reference: Brake at the 100m board.
+        corner_entry_notes: Down to 2nd gear.
+        exit_notes: Smooth on throttle.
+
+  - track_name: Mount Panorama
+    corners:
+      - number: 1
+        name: Hell Corner
+        notes: A tight left-hand turn.
+        braking_reference: Brake at the 100m board.
+        corner_entry_notes: Slow down to 2nd gear.
+        exit_notes: Use full throttle on exit.
+      - number: 2
+        name: The Cutting
+        notes: A steep uphill left-hander.
+        braking_reference: Brake early and hard.
+        corner_entry_notes: Slow down to 2nd gear.
+        exit_notes: Smooth on the throttle due to the incline.
+      - number: 3
+        name: Griffin's Mount
+        notes: Fast right-hander.
+        braking_reference: Slight lift before the turn.
+        corner_entry_notes: Maintain speed.
+        exit_notes: Early throttle.
+      - number: 4
+        name: Skyline
+        notes: Tricky downhill section.
+        braking_reference: Light brake before entry.
+        corner_entry_notes: Down to 3rd gear.
+        exit_notes: Control the descent.
+      - number: 5
+        name: Forrest's Elbow
+        notes: Tight left-hander before the long straight.
+        braking_reference: Brake hard before the elbow.
+        corner_entry_notes: Down to 2nd gear.
+        exit_notes: Maximize exit speed onto the straight.
+      - number: 6
+        name: The Chase
+        notes: High-speed chicane.
+        braking_reference: Brake at the 150m board.
+        corner_entry_notes: Down to 3rd gear.
+        exit_notes: Quick transition through the turns.
+
+  - track_name: Nurburgring
+    corners:
+      - number: 1
+        name: Turn 1
+        notes: Tight right-hander.
+        braking_reference: Brake at the 100m board.
+        corner_entry_notes: Down to 2nd gear.
+        exit_notes: Smooth on throttle.
+      - number: 2
+        name: Turn 2
+        notes: Tight left-hander.
+        braking_reference: Light brake.
+        corner_entry_notes: Down to 2nd gear.
+        exit_notes: Early on throttle.
+      - number: 3
+        name: Turn 3
+        notes: Medium-speed right-hander.
+        braking_reference: Light brake.
+        corner_entry_notes: Down to 3rd gear.
+        exit_notes: Smooth on throttle.
+      - number: 4
+        name: Turn 4
+        notes: Medium-speed right-hander.
+        braking_reference: Light brake.
+        corner_entry_notes: Down to 3rd gear.
+        exit_notes: Smooth on throttle.
+      - number: 5
+        name: Turn 5
+        notes: Medium-speed left-hander.
+        braking_reference: Light brake.
+        corner_entry_notes: Down to 3rd gear.
+        exit_notes: Early on throttle.
+      - number: 6
+        name: Turn 6
+        notes: Medium-speed right-hander.
+        braking_reference: Light brake.
+        corner_entry_notes: Down to 3rd gear.
+        exit_notes: Smooth on throttle.
+      - number: 7
+        name: Turn 7
+        notes: Medium-speed left-hander.
+        braking_reference: Light brake.
+        corner_entry_notes: Down to 3rd gear.
+        exit_notes: Smooth on throttle.
+      - number: 8
+        name: Turn 8
+        notes: Medium-speed right-hander.
+        braking_reference: Light brake.
+        corner_entry_notes: Down to 3rd gear.
+        exit_notes: Smooth on throttle.
+      - number: 9
+        name: Turn 9
+        notes: High-speed right-hander.
+        braking_reference: Slight lift or light brake.
+        corner_entry_notes: Maintain speed.
+        exit_notes: Full throttle.
+      - number: 10
+        name: Turn 10
+        notes: High-speed left-hander.
+        braking_reference: Slight lift or light brake.
+        corner_entry_notes: Maintain speed.
+        exit_notes: Full throttle.
+      - number: 11
+        name: Turn 11
+        notes: Tight left-hander.
+        braking_reference: Brake at the 100m board.
+        corner_entry_notes: Down to 2nd gear.
+        exit_notes: Smooth on throttle.
+      - number: 12
+        name: Turn 12
+        notes: Medium-speed right-hander.
+        braking_reference: Light brake.
+        corner_entry_notes: Down to 3rd gear.
+        exit_notes: Smooth on throttle.
+      - number: 13
+        name: Turn 13
+        notes: Medium-speed left-hander.
+        braking_reference: Light brake.
+        corner_entry_notes: Down to 3rd gear.
+        exit_notes: Early on throttle.
+      - number: 14
+        name: Turn 14
+        notes: High-speed right-hander.
+        braking_reference: Slight lift or light brake.
+        corner_entry_notes: Maintain speed.
+        exit_notes: Full throttle.
+
+  - track_name: Paul Ricard
+    corners:
+      - number: 1
+        name: Turn 1
+        notes: Medium-speed right-hander.
+        braking_reference: Light brake.
+        corner_entry_notes: Down to 3rd gear.
+        exit_notes: Smooth on throttle.
+      - number: 2
+        name: Turn 2
+        notes: Medium-speed left-hander.
+        braking_reference: Light brake.
+        corner_entry_notes: Down to 3rd gear.
+        exit_notes: Early on throttle.
+      - number: 3
+        name: Turn 3
+        notes: Medium-speed right-hander.
+        braking_reference: Light brake.
+        corner_entry_notes: Down to 3rd gear.
+        exit_notes: Smooth on throttle.
+      - number: 4
+        name: Turn 4
+        notes: Medium-speed left-hander.
+        braking_reference: Light brake.
+        corner_entry_notes: Down to 3rd gear.
+        exit_notes: Early on throttle.
+      - number: 5
+        name: Turn 5
+        notes: Medium-speed right-hander.
+        braking_reference: Light brake.
+        corner_entry_notes: Down to 3rd gear.
+        exit_notes: Smooth on throttle.
+      - number: 6
+        name: Turn 6
+        notes: Medium-speed left-hander.
+        braking_reference: Light brake.
+        corner_entry_notes: Down to 3rd gear.
+        exit_notes: Early on throttle.
+      - number: 7
+        name: Turn 7
+        notes: Medium-speed right-hander.
+        braking_reference: Light brake.
+        corner_entry_notes: Down to 3rd gear.
+        exit_notes: Smooth on throttle.
+      - number: 8
+        name: Turn 8
+        notes: High-speed left-hander.
+        braking_reference: Slight lift or light brake.
+        corner_entry_notes: Maintain speed.
+        exit_notes: Full throttle.
+      - number: 9
+        name: Turn 9
+        notes: Medium-speed right-hander.
+        braking_reference: Light brake.
+        corner_entry_notes: Down to 3rd gear.
+        exit_notes: Smooth on throttle.
+      - number: 10
+        name: Turn 10
+        notes: High-speed left-hander.
+        braking_reference: Slight lift or light brake.
+        corner_entry_notes: Maintain speed.
+        exit_notes: Full throttle.
+      - number: 11
+        name: Turn 11
+        notes: Medium-speed right-hander.
+        braking_reference: Light brake.
+        corner_entry_notes: Down to 3rd gear.
+        exit_notes: Smooth on throttle.
+      - number: 12
+        name: Turn 12
+        notes: Medium-speed left-hander.
+        braking_reference: Light brake.
+        corner_entry_notes: Down to 3rd gear.
+        exit_notes: Early on throttle.
+      - number: 13
+        name: Turn 13
+        notes: Medium-speed right-hander.
+        braking_reference: Light brake.
+        corner_entry_notes: Down to 3rd gear.
+        exit_notes: Smooth on throttle.
+      - number: 14
+        name: Turn 14
+        notes: High-speed left-hander.
+        braking_reference: Slight lift or light brake.
+        corner_entry_notes: Maintain speed.
+        exit_notes: Full throttle.
+      - number: 15
+        name: Turn 15
+        notes: Medium-speed right-hander.
+        braking_reference: Light brake.
+        corner_entry_notes: Down to 3rd gear.
+        exit_notes: Smooth on throttle.
+
+  - track_name: Snetterton
+    corners:
+      - number: 1
+        name: Riches
+        notes: Fast right-hander.
+        braking_reference: Slight lift or light brake.
+        corner_entry_notes: Maintain speed.
+        exit_notes: Full throttle.
+      - number: 2
+        name: Montreal
+        notes: Tight right-hander.
+        braking_reference: Brake at the 100m board.
+        corner_entry_notes: Down to 2nd gear.
+        exit_notes: Smooth on throttle.
+      - number: 3
+        name: Palmer
+        notes: Medium-speed left-hander.
+        braking_reference: Light brake.
+        corner_entry_notes: Down to 3rd gear.
+        exit_notes: Early on throttle.
+      - number: 4
+        name: Agostini
+        notes: Tight left-hander.
+        braking_reference: Brake at the 100m board.
+        corner_entry_notes: Down to 2nd gear.
+        exit_notes: Smooth on throttle.
+      - number: 5
+        name: Hamilton
+        notes: Medium-speed left-hander.
+        braking_reference: Light brake.
+        corner_entry_notes: Down to 3rd gear.
+        exit_notes: Early on throttle.
+      - number: 6
+        name: Oggies
+        notes: Medium-speed right-hander.
+        braking_reference: Light brake.
+        corner_entry_notes: Down to 3rd gear.
+        exit_notes: Smooth on throttle.
+      - number: 7
+        name: Williams
+        notes: Medium-speed right-hander.
+        braking_reference: Light brake.
+        corner_entry_notes: Down to 3rd gear.
+        exit_notes: Smooth on throttle.
+      - number: 8
+        name: Brundle
+        notes: Medium-speed left-hander.
+        braking_reference: Light brake.
+        corner_entry_notes: Down to 3rd gear.
+        exit_notes: Early on throttle.
+      - number: 9
+        name: Nelson
+        notes: Medium-speed right-hander.
+        braking_reference: Light brake.
+        corner_entry_notes: Down to 3rd gear.
+        exit_notes: Smooth on throttle.
+      - number: 10
+        name: Bomb Hole
+        notes: Medium-speed right-hander.
+        braking_reference: Light brake.
+        corner_entry_notes: Down to 3rd gear.
+        exit_notes: Smooth on throttle.
+      - number: 11
+        name: Coram
+        notes: Long, fast right-hander.
+        braking_reference: Slight lift or light brake.
+        corner_entry_notes: Maintain speed.
+        exit_notes: Full throttle.
+      - number: 12
+        name: Murrays
+        notes: Tight left-hander.
+        braking_reference: Brake at the 100m board.
+        corner_entry_notes: Down to 2nd gear.
+        exit_notes: Smooth on throttle.
+
+  - track_name: Zandvoort
+    corners:
+      - number: 1
+        name: Tarzanbocht
+        notes: Tight right-hander.
+        braking_reference: Brake at the 100m board.
+        corner_entry_notes: Down to 2nd gear.
+        exit_notes: Smooth on throttle.
+      - number: 2
+        name: Gerlachbocht
+        notes: Medium-speed right-hander.
+        braking_reference: Light brake.
+        corner_entry_notes: Down to 3rd gear.
+        exit_notes: Early on throttle.
+      - number: 3
+        name: Hugenholtzbocht
+        notes: Medium-speed left-hander.
+        braking_reference: Light brake.
+        corner_entry_notes: Down to 3rd gear.
+        exit_notes: Smooth on throttle.
+      - number: 4
+        name: Hunserug
+        notes: Fast right-hander.
+        braking_reference: Slight lift.
+        corner_entry_notes: Maintain speed.
+        exit_notes: Full throttle.
+      - number: 5
+        name: Rob Slotemakerbocht
+        notes: Medium-speed left-hander.
+        braking_reference: Light brake.
+        corner_entry_notes: Down to 3rd gear.
+        exit_notes: Early on throttle.
+      - number: 6
+        name: Scheivlak
+        notes: Fast right-hander.
+        braking_reference: Slight lift.
+        corner_entry_notes: Maintain speed.
+        exit_notes: Full throttle.
+      - number: 7
+        name: Marlboro Bocht
+        notes: Medium-speed left-hander.
+        braking_reference: Light brake.
+        corner_entry_notes: Down to 3rd gear.
+        exit_notes: Smooth on throttle.
+      - number: 8
+        name: Renault Bocht
+        notes: Medium-speed right-hander.
+        braking_reference: Light brake.
+        corner_entry_notes: Down to 3rd gear.
+        exit_notes: Smooth on throttle.
+      - number: 9
+        name: Vodafone Bocht
+        notes: Medium-speed left-hander.
+        braking_reference: Light brake.
+        corner_entry_notes: Down to 3rd gear.
+        exit_notes: Smooth on throttle.
+      - number: 10
+        name: Bos Uit
+        notes: Fast right-hander.
+        braking_reference: Slight lift.
+        corner_entry_notes: Maintain speed.
+        exit_notes: Full throttle.
+
+  - track_name: Zolder
+    corners:
+      - number: 1
+        name: Terlamenbocht
+        notes: Medium-speed right-hander.
+        braking_reference: Light brake.
+        corner_entry_notes: Down to 3rd gear.
+        exit_notes: Smooth on throttle.
+      - number: 2
+        name: Kanaalbocht
+        notes: Medium-speed left-hander.
+        braking_reference: Light brake.
+        corner_entry_notes: Down to 3rd gear.
+        exit_notes: Early on throttle.
+      - number: 3
+        name: Bianchi-Bocht
+        notes: Fast right-hander.
+        braking_reference: Slight lift.
+        corner_entry_notes: Maintain speed.
+        exit_notes: Full throttle.
+      - number: 4
+        name: Eerste Linkse
+        notes: Medium-speed left-hander.
+        braking_reference: Light brake.
+        corner_entry_notes: Down to 3rd gear.
+        exit_notes: Smooth on throttle.
+      - number: 5
+        name: Kleine Chicane
+        notes: Tight right-left chicane.
+        braking_reference: Brake at the 100m board.
+        corner_entry_notes: Down to 2nd gear.
+        exit_notes: Smooth transition.
+      - number: 6
+        name: Sterrenwachtbocht
+        notes: Medium-speed right-hander.
+        braking_reference: Light brake.
+        corner_entry_notes: Down to 3rd gear.
+        exit_notes: Smooth on throttle.
+      - number: 7
+        name: Villeneuve Chicane
+        notes: Tight right-left chicane.
+        braking_reference: Brake at the 100m board.
+        corner_entry_notes: Down to 2nd gear.
+        exit_notes: Smooth transition.
+      - number: 8
+        name: Bolderbergbocht
+        notes: Medium-speed right-hander.
+        braking_reference: Light brake.
+        corner_entry_notes: Down to 3rd gear.
+        exit_notes: Smooth on throttle.
+      - number: 9
+        name: Jackie Ickx-Bocht
+        notes: Fast right-hander.
+        braking_reference: Slight lift.
+        corner_entry_notes: Maintain speed.
+        exit_notes: Full throttle.

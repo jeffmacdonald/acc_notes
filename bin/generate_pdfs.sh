@@ -1,7 +1,5 @@
 #!/usr/bin/env bash
 
-set -x
-
 # Change to the markdowns directory
 cd track_markdowns
 
