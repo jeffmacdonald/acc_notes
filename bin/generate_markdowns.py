@@ -14,11 +14,12 @@ os.makedirs(output_directory, exist_ok=True)
 
 # Set up Jinja2 environment and load template
 env = Environment(loader=FileSystemLoader('.'))
-template = env.get_template('track_template.md')
+template = env.get_template('track_template.md.jinja2')
 
 # Function to create a markdown file for each track
-def create_markdown_file(track_name, track_info):
-    corners = sorted(track_info['corners'], key=lambda x: x['number'])
+def create_markdown_file(track):
+    track_name = track['track_name']
+    corners = sorted(track['corners'], key=lambda x: x['number'])
 
     # Render the template with the track data
     markdown_content = template.render(track_name=track_name, corners=corners)
@@ -30,5 +31,5 @@ def create_markdown_file(track_name, track_info):
     print(f"Created file: {file_path}")
 
 # Process each track in the YAML data
-for track_name, track_info in tracks_data.items():
-    create_markdown_file(track_name, track_info)
+for track in tracks_data['tracks']:
+    create_markdown_file(track)

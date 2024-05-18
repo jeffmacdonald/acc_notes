@@ -1,24 +1,24 @@
-![Nurburgring](../track_maps/Nurburgring.png)
+![Paul Ricard](../track_maps/Paul Ricard.png)
 
-# Nurburgring
+# Paul Ricard
 
 
 ## Corner 1: Turn 1
-**Notes:** Tight right-hander.
+**Notes:** Medium-speed right-hander.
 
-**Braking Reference:** Brake at the 100m board.
+**Braking Reference:** Light brake.
 
-**Corner Entry Notes:** Down to 2nd gear.
+**Corner Entry Notes:** Down to 3rd gear.
 
 **Exit Notes:** Smooth on throttle.
 
 
 ## Corner 2: Turn 2
-**Notes:** Tight left-hander.
+**Notes:** Medium-speed left-hander.
 
 **Braking Reference:** Light brake.
 
-**Corner Entry Notes:** Down to 2nd gear.
+**Corner Entry Notes:** Down to 3rd gear.
 
 **Exit Notes:** Early on throttle.
 
@@ -34,16 +34,6 @@
 
 
 ## Corner 4: Turn 4
-**Notes:** Medium-speed right-hander.
-
-**Braking Reference:** Light brake.
-
-**Corner Entry Notes:** Down to 3rd gear.
-
-**Exit Notes:** Smooth on throttle.
-
-
-## Corner 5: Turn 5
 **Notes:** Medium-speed left-hander.
 
 **Braking Reference:** Light brake.
@@ -53,7 +43,7 @@
 **Exit Notes:** Early on throttle.
 
 
-## Corner 6: Turn 6
+## Corner 5: Turn 5
 **Notes:** Medium-speed right-hander.
 
 **Braking Reference:** Light brake.
@@ -63,8 +53,18 @@
 **Exit Notes:** Smooth on throttle.
 
 
-## Corner 7: Turn 7
+## Corner 6: Turn 6
 **Notes:** Medium-speed left-hander.
+
+**Braking Reference:** Light brake.
+
+**Corner Entry Notes:** Down to 3rd gear.
+
+**Exit Notes:** Early on throttle.
+
+
+## Corner 7: Turn 7
+**Notes:** Medium-speed right-hander.
 
 **Braking Reference:** Light brake.
 
@@ -74,6 +74,16 @@
 
 
 ## Corner 8: Turn 8
+**Notes:** High-speed left-hander.
+
+**Braking Reference:** Slight lift or light brake.
+
+**Corner Entry Notes:** Maintain speed.
+
+**Exit Notes:** Full throttle.
+
+
+## Corner 9: Turn 9
 **Notes:** Medium-speed right-hander.
 
 **Braking Reference:** Light brake.
@@ -81,16 +91,6 @@
 **Corner Entry Notes:** Down to 3rd gear.
 
 **Exit Notes:** Smooth on throttle.
-
-
-## Corner 9: Turn 9
-**Notes:** High-speed right-hander.
-
-**Braking Reference:** Slight lift or light brake.
-
-**Corner Entry Notes:** Maintain speed.
-
-**Exit Notes:** Full throttle.
 
 
 ## Corner 10: Turn 10
@@ -104,16 +104,6 @@
 
 
 ## Corner 11: Turn 11
-**Notes:** Tight left-hander.
-
-**Braking Reference:** Brake at the 100m board.
-
-**Corner Entry Notes:** Down to 2nd gear.
-
-**Exit Notes:** Smooth on throttle.
-
-
-## Corner 12: Turn 12
 **Notes:** Medium-speed right-hander.
 
 **Braking Reference:** Light brake.
@@ -123,7 +113,7 @@
 **Exit Notes:** Smooth on throttle.
 
 
-## Corner 13: Turn 13
+## Corner 12: Turn 12
 **Notes:** Medium-speed left-hander.
 
 **Braking Reference:** Light brake.
@@ -133,12 +123,32 @@
 **Exit Notes:** Early on throttle.
 
 
+## Corner 13: Turn 13
+**Notes:** Medium-speed right-hander.
+
+**Braking Reference:** Light brake.
+
+**Corner Entry Notes:** Down to 3rd gear.
+
+**Exit Notes:** Smooth on throttle.
+
+
 ## Corner 14: Turn 14
-**Notes:** High-speed right-hander.
+**Notes:** High-speed left-hander.
 
 **Braking Reference:** Slight lift or light brake.
 
 **Corner Entry Notes:** Maintain speed.
 
 **Exit Notes:** Full throttle.
+
+
+## Corner 15: Turn 15
+**Notes:** Medium-speed right-hander.
+
+**Braking Reference:** Light brake.
+
+**Corner Entry Notes:** Down to 3rd gear.
+
+**Exit Notes:** Smooth on throttle.
 
