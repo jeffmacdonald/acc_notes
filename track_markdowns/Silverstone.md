@@ -1,84 +1,226 @@
-![Silverstone](../track_maps/Silverstone.png)
+![Silverstone](../track_maps/silverstone.png)
 
 # Silverstone
 
 
-## Corner 1: Abbey
-**Notes:** A fast right-hander.
 
-**Braking Reference:** Slight lift off the throttle.
+## Tips for Every Practice
 
-**Corner Entry Notes:** Minimal braking.
-
-**Exit Notes:** Accelerate through the corner.
+- Count your corners out loud
 
 
-## Corner 2: Village
-**Notes:** A tight left-hander.
+## Corner 1: Copse
+**Notes:** None
 
-**Braking Reference:** Brake at the 50m board.
+**Braking Reference:** Just before the 50
 
-**Corner Entry Notes:** Slow down to 2nd gear.
+**Corner Entry Notes:** You should have 2 wheels over the left curb, brake and turn in immediatly.
 
-**Exit Notes:** Careful on exit to avoid wheel spin.
+**Apex Notes:** Roll off brakes just before Apex, tires fully over the right curb
 
-
-## Corner 3: The Loop
-**Notes:** Tight left-hander.
-
-**Braking Reference:** Slow and steady.
-
-**Corner Entry Notes:** Down to 1st gear.
-
-**Exit Notes:** Smooth on the throttle.
+**Exit Notes:** Just after apex get back on gas and slide out to left edge.
 
 
-## Corner 4: Brooklands
-**Notes:** Medium-speed left-hander.
+## Corner 2: Maggots
+**Notes:** It's a compound corner/jog. Use the curbs as much as possible
 
-**Braking Reference:** Brake at the 100m board.
+**Braking Reference:** 
 
-**Corner Entry Notes:** Down to 3rd gear.
+**Corner Entry Notes:** Enter from the far right, then use all of left curb. Dab the brakes to come back to right curb.
 
-**Exit Notes:** Early on the throttle.
+**Apex Notes:** 
 
-
-## Corner 5: Luffield
-**Notes:** Long right-hander.
-
-**Braking Reference:** Maintain a tight line.
-
-**Corner Entry Notes:** Down to 2nd gear.
-
-**Exit Notes:** Gradual throttle application.
+**Exit Notes:** Try to exit tight in the middle of the track, not the left to setup for Beckets
 
 
-## Corner 6: Copse
-**Notes:** High-speed right-hander.
+## Corner 3: Maggots
+**Notes:** 
 
-**Braking Reference:** Slight lift or light brake.
+**Braking Reference:** 
 
-**Corner Entry Notes:** Maintain speed.
+**Corner Entry Notes:** 
 
-**Exit Notes:** Smooth on the throttle.
+**Apex Notes:** 
 
-
-## Corner 7: Maggots & Becketts
-**Notes:** Series of high-speed S-curves.
-
-**Braking Reference:** Enter at full throttle.
-
-**Corner Entry Notes:** Light braking as needed.
-
-**Exit Notes:** Maintain momentum.
+**Exit Notes:** 
 
 
-## Corner 8: Stowe
-**Notes:** Fast right-hander.
+## Corner 4: Maggots
+**Notes:** None
 
-**Braking Reference:** Brake at the 50m board.
+**Braking Reference:** None
 
-**Corner Entry Notes:** Down to 4th gear.
+**Corner Entry Notes:** None
 
-**Exit Notes:** Full throttle out of the corner.
+**Apex Notes:** 
+
+**Exit Notes:** None
+
+
+## Corner 5: Becketts
+**Notes:** None
+
+**Braking Reference:** None
+
+**Corner Entry Notes:** None
+
+**Apex Notes:** 
+
+**Exit Notes:** None
+
+
+## Corner 6: Chapel
+**Notes:** None
+
+**Braking Reference:** None
+
+**Corner Entry Notes:** None
+
+**Apex Notes:** 
+
+**Exit Notes:** Don't use the green run off
+
+
+## Corner 7: Stowe
+**Notes:** None
+
+**Braking Reference:** None
+
+**Corner Entry Notes:** None
+
+**Apex Notes:** 
+
+**Exit Notes:** None
+
+
+## Corner 8: Vale
+**Notes:** None
+
+**Braking Reference:** None
+
+**Corner Entry Notes:** None
+
+**Apex Notes:** 
+
+**Exit Notes:** None
+
+
+## Corner 9: Club
+**Notes:** None
+
+**Braking Reference:** None
+
+**Corner Entry Notes:** None
+
+**Apex Notes:** 
+
+**Exit Notes:** None
+
+
+## Corner 10: 10
+**Notes:** None
+
+**Braking Reference:** None
+
+**Corner Entry Notes:** None
+
+**Apex Notes:** 
+
+**Exit Notes:** None
+
+
+## Corner 11: Abbey
+**Notes:** None
+
+**Braking Reference:** None
+
+**Corner Entry Notes:** None
+
+**Apex Notes:** 
+
+**Exit Notes:** None
+
+
+## Corner 12: Farm
+**Notes:** None
+
+**Braking Reference:** None
+
+**Corner Entry Notes:** None
+
+**Apex Notes:** 
+
+**Exit Notes:** None
+
+
+## Corner 13: 13
+**Notes:** None
+
+**Braking Reference:** None
+
+**Corner Entry Notes:** None
+
+**Apex Notes:** 
+
+**Exit Notes:** None
+
+
+## Corner 14: Arena
+**Notes:** None
+
+**Braking Reference:** None
+
+**Corner Entry Notes:** None
+
+**Apex Notes:** 
+
+**Exit Notes:** None
+
+
+## Corner 15: 15
+**Notes:** None
+
+**Braking Reference:** None
+
+**Corner Entry Notes:** None
+
+**Apex Notes:** 
+
+**Exit Notes:** None
+
+
+## Corner 16: Brooklands
+**Notes:** None
+
+**Braking Reference:** None
+
+**Corner Entry Notes:** None
+
+**Apex Notes:** 
+
+**Exit Notes:** None
+
+
+## Corner 17: Luffield
+**Notes:** None
+
+**Braking Reference:** None
+
+**Corner Entry Notes:** None
+
+**Apex Notes:** 
+
+**Exit Notes:** None
+
+
+## Corner 18: Woodcote
+**Notes:** None
+
+**Braking Reference:** None
+
+**Corner Entry Notes:** None
+
+**Apex Notes:** 
+
+**Exit Notes:** None
 

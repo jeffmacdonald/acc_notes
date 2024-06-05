@@ -135,94 +135,125 @@ tracks:
         exit_notes: Focus on a clean exit.
 
   - track_name: Silverstone
-    corners:
+    notes_confidence: '1'
+    youtube_videos:
+      - youtuber: TraxionGG
+        url: 'https://www.youtube.com/watch?v=XxFNbWdh-Ns'
+    sectors:
       - number: 1
-        name: Abbey
-        notes: A fast right-hander.
-        braking_reference: Slight lift off the throttle.
-        corner_entry_notes: Minimal braking.
-        exit_notes: Accelerate through the corner.
+        start_between: 18 and 1
+        end_between: 6 and 7
       - number: 2
-        name: Village
-        notes: A tight left-hander.
-        braking_reference: Brake at the 50m board.
-        corner_entry_notes: Slow down to 2nd gear.
-        exit_notes: Careful on exit to avoid wheel spin.
+        start_between: 6 and 7
+        end_between: 14 and 15
       - number: 3
-        name: The Loop
-        notes: Tight left-hander.
-        braking_reference: Slow and steady.
-        corner_entry_notes: Down to 1st gear.
-        exit_notes: Smooth on the throttle.
-      - number: 4
-        name: Brooklands
-        notes: Medium-speed left-hander.
-        braking_reference: Brake at the 100m board.
-        corner_entry_notes: Down to 3rd gear.
-        exit_notes: Early on the throttle.
-      - number: 5
-        name: Luffield
-        notes: Long right-hander.
-        braking_reference: Maintain a tight line.
-        corner_entry_notes: Down to 2nd gear.
-        exit_notes: Gradual throttle application.
-      - number: 6
+        start_between: 14 and 15
+        start_between: 18 and 1
+    corners:
+      - number: 1 
         name: Copse
-        notes: High-speed right-hander.
-        braking_reference: Slight lift or light brake.
-        corner_entry_notes: Maintain speed.
-        exit_notes: Smooth on the throttle.
-      - number: 7
-        name: Maggots & Becketts
-        notes: Series of high-speed S-curves.
-        braking_reference: Enter at full throttle.
-        corner_entry_notes: Light braking as needed.
-        exit_notes: Maintain momentum.
-      - number: 8
-        name: Stowe
-        notes: Fast right-hander.
-        braking_reference: Brake at the 50m board.
-        corner_entry_notes: Down to 4th gear.
-        exit_notes: Full throttle out of the corner.
-
-  - track_name: Bathurst
-    corners:
-      - number: 1
-        name: Hell Corner
-        notes: A tight left-hand turn.
-        braking_reference: Brake at the 100m board.
-        corner_entry_notes: Slow down to 2nd gear.
-        exit_notes: Use full throttle on exit.
+        notes: 
+        braking_reference: Just before the 50
+        corner_entry_notes: You should have 2 wheels over the left curb, brake and turn in immediatly.
+        apex_notes: Roll off brakes just before Apex, tires fully over the right curb 
+        exit_notes: Just after apex get back on gas and slide out to left edge.
       - number: 2
-        name: The Cutting
-        notes: A steep uphill left-hander.
-        braking_reference: Brake early and hard.
-        corner_entry_notes: Slow down to 2nd gear.
-        exit_notes: Smooth on the throttle due to the incline.
+        name: Maggots
+        notes: It's a compound corner/jog. Use the curbs as much as possible
+        corner_entry_notes: Enter from the far right, then use all of left curb. Dab the brakes to come back to right curb.
+        exit_notes: Try to exit tight in the middle of the track, not the left to setup for Beckets
       - number: 3
-        name: Griffin's Mount
-        notes: Fast right-hander.
-        braking_reference: Slight lift before the turn.
-        corner_entry_notes: Maintain speed.
-        exit_notes: Early throttle.
+        name: Maggots
       - number: 4
-        name: Skyline
-        notes: Tricky downhill section.
-        braking_reference: Light brake before entry.
-        corner_entry_notes: Down to 3rd gear.
-        exit_notes: Control the descent.
+        name: Maggots
+        notes: 
+        braking_reference: 
+        corner_entry_notes: 
+        exit_notes: 
       - number: 5
-        name: Forrest's Elbow
-        notes: Tight left-hander before the long straight.
-        braking_reference: Brake hard before the elbow.
-        corner_entry_notes: Down to 2nd gear.
-        exit_notes: Maximize exit speed onto the straight.
+        name: Becketts
+        notes: 
+        braking_reference: 
+        corner_entry_notes: 
+        exit_notes: 
       - number: 6
-        name: The Chase
-        notes: High-speed chicane.
-        braking_reference: Brake at the 150m board.
-        corner_entry_notes: Down to 3rd gear.
-        exit_notes: Quick transition through the turns.
+        name: Chapel
+        notes: 
+        braking_reference: 
+        corner_entry_notes: 
+        exit_notes: Don't use the green run off
+      - number: 7
+        name: Stowe
+        notes: 
+        braking_reference: 
+        corner_entry_notes: 
+        exit_notes: 
+      - number: 8
+        name: Vale
+        notes: 
+        braking_reference: 
+        corner_entry_notes: 
+        exit_notes: 
+      - number: 9
+        name: Club
+        notes: 
+        braking_reference: 
+        corner_entry_notes: 
+        exit_notes: 
+      - number: 10 
+        name: 10
+        notes: 
+        braking_reference: 
+        corner_entry_notes: 
+        exit_notes: 
+      - number: 11 
+        name: Abbey
+        notes: 
+        braking_reference: 
+        corner_entry_notes: 
+        exit_notes: 
+      - number: 12 
+        name: Farm
+        notes: 
+        braking_reference: 
+        corner_entry_notes: 
+        exit_notes: 
+      - number: 13
+        name: 13
+        notes: 
+        braking_reference: 
+        corner_entry_notes: 
+        exit_notes: 
+      - number: 14 
+        name: Arena
+        notes: 
+        braking_reference: 
+        corner_entry_notes: 
+        exit_notes: 
+      - number: 15 
+        name: 15
+        notes: 
+        braking_reference: 
+        corner_entry_notes: 
+        exit_notes: 
+      - number: 16 
+        name: Brooklands
+        notes: 
+        braking_reference: 
+        corner_entry_notes: 
+        exit_notes: 
+      - number: 17 
+        name: Luffield
+        notes: 
+        braking_reference: 
+        corner_entry_notes: 
+        exit_notes: 
+      - number: 18 
+        name: Woodcote
+        notes: 
+        braking_reference: 
+        corner_entry_notes: 
+        exit_notes: 
 
   - track_name: Imola
     corners:

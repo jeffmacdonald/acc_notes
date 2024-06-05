@@ -18,14 +18,14 @@ template = env.get_template('track_template.md.jinja2')
 
 # Function to create a markdown file for each track
 def create_markdown_file(track):
-    track_name = track['track_name']
     corners = sorted(track['corners'], key=lambda x: x['number'])
+    track['corners'] = corners
 
     # Render the template with the track data
-    markdown_content = template.render(track_name=track_name, corners=corners)
+    markdown_content = template.render(track=track)
 
     # Write the rendered content to a file
-    file_path = os.path.join(output_directory, f"{track_name}.md")
+    file_path = os.path.join(output_directory, f"{track['track_name']}.md")
     with open(file_path, "w") as f:
         f.write(markdown_content)
     print(f"Created file: {file_path}")
